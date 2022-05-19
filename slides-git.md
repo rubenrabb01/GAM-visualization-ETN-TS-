@@ -845,6 +845,10 @@ In addition to the _gratia_ package, there are other R packages that allow you t
 
 [:books:](https://cran.r-project.org/web/packages/mgcv/index.html)`library(mgcv)`
 
+The function `plot.gam()` is the default function for plotting GAMs and is based on R base graphs. It plots the partial effect of one dimensional smooths.
+
+We can select the smooth term of the model with the _`select`_ parameter.
+
 The function `plot.gam()` is based on R graphs, unlike `draw()`. But as with the latter, we can select the smooth term of the model with the _`select`_ parameter.
 
 ``` r
@@ -861,6 +865,36 @@ mgcv::plot.gam(mod, Select = NULL,
 
    </blockquote></details>
 </blockquote></details>
+
+
+## <a name="heading--4">4. Other packages for GAM visualization: mgcv
+
+The function `vis.gam()` can be used to plot the summed effects of smooths (i.e., additive effects) and to make contour plot of gam model predictions.
+
+``` r
+par(mfrow = c(1,2))
+vis.gam(mod_te, view = c("temp", "bl"),         # select the smooth interacting variables
+                cond = list(species = 'pike'),  # fixes all but the values in view to the values supplied in cond.
+                color = "topo",                 # colour scheme "topo", "heat", "cm", "terrain", "gray" or "bw"
+                plot.type="contour",
+                n.grid = 500,
+                theta = 45,                     # set horizontal angle
+                phi = 30)                       # set vertical angle
+
+vis.gam(mod_te, view = c("temp", "bl"),         # select the smooth interacting variables
+                cond = list(species = 'pike'),  # fixes all but the values in view to the values supplied in cond.
+                color = "topo",                 # colour scheme "topo", "heat", "cm", "terrain", "gray" or "bw"
+                plot.type="rgl",
+                theta = 45,                     # set horizontal angle
+                phi = 30)
+```
+<details><summary>Show plot</summary><blockquote>
+
+<p align="center"><img src="/Plots/Fig.vis.gam.png?raw=true"></p>
+
+   </blockquote></details>
+</blockquote></details>
+
 
 ## <a name="heading--4">4. Other packages for GAM visualization: mgcViz
 
@@ -1202,5 +1236,4 @@ ggplot(sms_deriv_pp,
 - **van Rij, J., Wieling, M., Baayen, R., van Rijn, H. (2017)**. itsadug: Interpreting Time Series and Autocorrelated Data Using GAMMs. R package version 2.3
 - **Wood, S. N. (2001)**. mgcv: GAMs and Generalized Ridge Regression for R. R News 1(2):20-25
 - **Wood, S. N. (2017)**. Generalized additive models: an introduction with R. Second Edition. Boco Raton: CRC Press.
-
 
