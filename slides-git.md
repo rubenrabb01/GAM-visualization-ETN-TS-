@@ -1,7 +1,6 @@
-<div><img src="logo.png" width="200px" align="left"></div>
----
 <div><img src="logo_ETN.png" width="100px" align="right"></div>
 <div><img src="logo_share.jpg" width="100px" align="right"></div>
+<div><img src="logo.png" width="200px" align="left"></div>
 
 ---
 # Visualising Generalised Additive Models (GAMs). An introduction to the package gratia.
