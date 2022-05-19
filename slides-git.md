@@ -1,4 +1,4 @@
-<div><img src="logo.png" width="200px" align="right"></div>
+<div><img src="logo.png" width="200px" align="bottom"></div>
 <div><img src="logo_ETN.png" width="100px" align="right"></div>
 <div><img src="logo_share.jpg" width="100px" align="right"></div>
 
