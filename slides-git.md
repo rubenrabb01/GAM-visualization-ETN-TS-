@@ -837,10 +837,6 @@ ggplot(sms_deriv_pike,
 
 <p align="center"><img src="/Plots/Fig.sms_deriv_pike_ggpl.png?raw=true"></p>
 
-## <a name="heading--4">4. Other packages for GAM visualization
-
-In addition to the _gratia_ package, there are other R packages that allow you to display various types of visualisations of GAM models, some of which are more and some of which are less ggplot-friendly.
-
 ## <a name="heading--4">4. Other packages for GAM visualization: mgcv
 
 [:books:](https://cran.r-project.org/web/packages/mgcv/index.html)`library(mgcv)`
