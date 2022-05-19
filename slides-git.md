@@ -4,7 +4,7 @@
 
 ---
 # Visualising Generalised Additive Models (GAMs). 
-An introduction to the package gratia.
+## An introduction to the package gratia.
 ### _Rubén Rabaneda Bueno_
 
 ---
