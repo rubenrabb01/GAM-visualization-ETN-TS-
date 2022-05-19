@@ -3,8 +3,7 @@
 <div><img src="logo.png" width="200px" align="left"></div>
 
 ---
-# Visualising Generalised Additive Models (GAMs). 
-## An introduction to the package gratia.
+# Visualising Generalised Additive Models (GAMs). An introduction to the package gratia.
 ### _Rubén Rabaneda Bueno_
 
 ---
