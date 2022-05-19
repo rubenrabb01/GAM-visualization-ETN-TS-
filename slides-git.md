@@ -2,7 +2,7 @@
 <div><img src="logo_ETN.png" width="100px" align="right"></div>
 
 ---
-# Visualising Generalised Additive Models (GAMs). An introduction to the package 'gratia''
+# Visualising Generalised Additive Models (GAMs). An introduction to the package __gratia__
 ### _Rubén Rabaneda Bueno_
 
 ---
