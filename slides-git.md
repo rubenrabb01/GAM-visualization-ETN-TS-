@@ -1,9 +1,8 @@
 <div><img src="logo.png" width="200px" align="right"></div>
 <div><img src="logo_ETN.png" width="100px" align="right"></div>
-<div><img src="logo_ETN.png" width="100px" align="right"></div>
 
 ---
-# Visualising Generalised Additive Models  (GAMs). An introduction to the package gratia
+# Visualising Generalised Additive Models (GAMs). An introduction to the package 'gratia''
 ### _Rubén Rabaneda Bueno_
 
 ---
@@ -1196,11 +1195,11 @@ ggplot(sms_deriv_pp,
 ---
 
 # <a name="headreferences"></a> References [:page_facing_up:](#headindex)
-   
-- **Fasiolo M., Nedellec, R., Goude, Y., Wood, S.N. (2020)**. Scalable Visualization Methods for Modern Generalized Additive Models, Journal of Computational and Graphical Statistics, 29:1, 78-86.
+
 - **Simpson G (2022)**. _gratia: Graceful ggplot-Based Graphics and Other Functions for GAMs Fitted using mgcv_. R package version 0.7.2., <URL: https://gavinsimpson.github.io/gratia/>.
 - **Simpson, G.L.**.  From the bottom of the heap. https://fromthebottomoftheheap.net/.
 - **van Rij, J., Wieling, M., Baayen, R., van Rijn, H. (2017)**. itsadug: Interpreting Time Series and Autocorrelated Data Using GAMMs. R package version 2.3
 - **Wood, S. N. (2001)**. mgcv: GAMs and Generalized Ridge Regression for R. R News 1(2):20-25
+- **Wood, S. N. (2017)**. Generalized additive models: an introduction with R. Second Edition. Boco Raton: CRC Press.
 
 
