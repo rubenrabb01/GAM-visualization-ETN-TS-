@@ -862,9 +862,6 @@ mgcv::plot.gam(mod, Select = NULL,
    </blockquote></details>
 </blockquote></details>
 
-
-## <a name="heading--4">4. Other packages for GAM visualization: mgcv
-
 The function `vis.gam()` can be used to plot the summed effects of smooths (i.e., additive effects) and to make contour plot of gam model predictions.
 
 ``` r
